@@ -1,0 +1,332 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = Mon 09 Feb 2015 04:12:04 PM PST
+
+BeginCmp
+TimeStamp = /5AA814BE;
+Reference = C1;
+ValeurCmp = 0015_100NF_0603;
+IdModule  = C0603-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81586;
+Reference = C2;
+ValeurCmp = 0833_TAJA475MO16RNJ;
+IdModule  = TAN-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8164E;
+Reference = C3;
+ValeurCmp = 0006_1UF_0603/GRM188R61E105KA12D;
+IdModule  = C0603-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81716;
+Reference = C4;
+ValeurCmp = 0015_100NF_0603;
+IdModule  = C0603-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA817DE;
+Reference = C5;
+ValeurCmp = 0833_TAJA475MO16RNJ;
+IdModule  = TAN-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA818A6;
+Reference = C6;
+ValeurCmp = 0015_100NF_0603;
+IdModule  = C0603-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8196E;
+Reference = C7;
+ValeurCmp = 0006_1UF_0603/GRM188R61E105KA12D;
+IdModule  = C0603-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81A36;
+Reference = C8;
+ValeurCmp = 0006_1UF_0603/GRM188R61E105KA12D;
+IdModule  = C0603-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81AFE;
+Reference = C9;
+ValeurCmp = 0015_100NF_0603;
+IdModule  = C0603-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81BC6;
+Reference = D+56;
+ValeurCmp = TPTP-1.00MM;
+IdModule  = TP-1.00MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81C8E;
+Reference = D-56;
+ValeurCmp = TPTP-1.00MM;
+IdModule  = TP-1.00MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81D56;
+Reference = D1;
+ValeurCmp = 0025_SS1P3L-M3/84A;
+IdModule  = DO220AAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81E1E;
+Reference = F1;
+ValeurCmp = PTC;
+IdModule  = 0603-1608X90N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81EE6;
+Reference = FRAME1;
+ValeurCmp = A3-FRAME-STANDARD;
+IdModule  = FRAME;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA81FAE;
+Reference = IC1;
+ValeurCmp = 0226_FT232RL;
+IdModule  = SSOP28;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82076;
+Reference = IC2;
+ValeurCmp = 0022_LM1117IMPX-5.0;
+IdModule  = LINEAR_SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8213E;
+Reference = IC3;
+ValeurCmp = 0265_ATMEGA328P-AU;
+IdModule  = TQFP32-08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82206;
+Reference = J1;
+ValeurCmp = XXXX_STRIPNANO;
+IdModule  = HEAD15-NOSS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA822CE;
+Reference = J2;
+ValeurCmp = XXXX_STRIPNANO;
+IdModule  = HEAD15-NOSS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82396;
+Reference = J3;
+ValeurCmp = 0219_14850;
+IdModule  = USB-MINI-B_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8245E;
+Reference = J4;
+ValeurCmp = 0114_PH254-203DF118A00V;
+IdModule  = 2X03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82526;
+Reference = L56;
+ValeurCmp = 0044_KPT-2012YC;
+IdModule  = CHIPLED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA825EE;
+Reference = PWR56;
+ValeurCmp = 0043_KPT-2012SGC;
+IdModule  = CHIPLED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA826B6;
+Reference = RP1;
+ValeurCmp = 0005_064R_1K_/_CAY16-102J4LF;
+IdModule  = CAY16;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA828AA;
+Reference = RP2;
+ValeurCmp = 0005_064R_1K_/_CAY16-102J4LF;
+IdModule  = CAY16;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82A9E;
+Reference = RX56;
+ValeurCmp = 0181_KTP-2012SURCK;
+IdModule  = CHIPLED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82B66;
+Reference = SW1;
+ValeurCmp = 0173_IT-1185AP1C-160G-G_T&R;
+IdModule  = SMD_157SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82C2E;
+Reference = TX56;
+ValeurCmp = 0043_KPT-2012SGC;
+IdModule  = CHIPLED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82E22;
+Reference = U$4;
+ValeurCmp = FIDUCIAL-1.5MM;
+IdModule  = FD-1-1.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA82EEA;
+Reference = U$5;
+ValeurCmp = FIDUCIAL-1.5MM;
+IdModule  = FD-1-1.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA83C32;
+Reference = U$53;
+ValeurCmp = FIDUCIAL-1.5MM;
+IdModule  = FD-1-1.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA83CFA;
+Reference = U$54;
+ValeurCmp = FIDUCIAL-1.5MM;
+IdModule  = FD-1-1.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA83E26;
+Reference = VP_0;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA83EEE;
+Reference = VP_1;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA83FB6;
+Reference = VP_2;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8407E;
+Reference = VP_3;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA84146;
+Reference = VP_4;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8420E;
+Reference = VP_5;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA842D6;
+Reference = VP_6;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8439E;
+Reference = VP_7;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA84466;
+Reference = VP_8;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8452E;
+Reference = VP_9;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA845F6;
+Reference = VP_10;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA846BE;
+Reference = VP_11;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA84786;
+Reference = VP_12;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA8484E;
+Reference = VP_13;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AA84916;
+Reference = Y1;
+ValeurCmp = 0011_CSTCE16M0V53-R0;
+IdModule  = RESONATOR;
+EndCmp
+
+EndListe

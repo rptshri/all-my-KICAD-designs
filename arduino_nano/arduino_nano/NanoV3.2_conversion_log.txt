@@ -1,0 +1,75 @@
+#********** START OF renumber-sheet.ulp ULP Version 4.4.4 13-03-2018 :23:40:42 LOG **********#
+#OldRef				SheetNumber	NewRef
+D+				1	D+56
+D-				1	D-56
+L				1	L56
+PWR				1	PWR56
+RX				1	RX56
+TX				1	TX56
+#********** END OF renumber-sheet.ulp ULP Version 4.4.4 13-03-2018 :23:40:42 LOG **********#
+
+#********** START OF fix_via_hack.ulp ULP Version 4.8.0 13-03-2018 :23:41:02 LOG **********#
+VIA	ViaCount=1		Net=COM				(X=39827.200000 Y=4470.400000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=2		Net=COM				(X=10617.200000 Y=3352.800000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=3		Net=COM				(X=18948.400000 Y=8153.400000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=4		Net=COM				(X=15671.800000 Y=12420.600000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=5		Net=COM				(X=33274.000000 Y=12776.200000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=6		Net=COM				(X=26543.000000 Y=12801.600000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=7		Net=COM				(X=28194.000000 Y=5791.200000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=8		Net=COM				(X=32258.000000 Y=4394.200000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=9		Net=COM				(X=34290.000000 Y=4140.200000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=10		Net=COM				(X=37846.000000 Y=7518.400000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=11		Net=COM				(X=24282.400000 Y=9499.600000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=12		Net=COM				(X=2692.400000 Y=2717.800000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=13		Net=COM				(X=2794.000000 Y=9144.000000)	LayerStart=1	LayerEnd=16
+VIA	ViaCount=14		Net=COM				(X=11709.400000 Y=9220.200000)	LayerStart=1	LayerEnd=16
+PADFILL	PadCount=2		Net=COM				(X=6096.000000 Y=3022.600000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=4		Net=COM				(X=2540.000000 Y=10414.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=6		Net=COM				(X=20751.800000 Y=6121.400000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=10		Net=COM				(X=34315.400000 Y=11150.600000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=11		Net=COM				(X=4572.000000 Y=9906.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=14		Net=COM				(X=28752.800000 Y=9271.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=16		Net=COM				(X=27686.000000 Y=3556.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=18		Net=COM				(X=32181.800000 Y=13843.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=31		Net=COM				(X=10705.300000 Y=5308.600000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=42		Net=COM				(X=8104.600000 Y=12420.600000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=45		Net=COM				(X=10055.100000 Y=12420.600000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=49		Net=COM				(X=12655.000000 Y=12420.600000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=50		Net=COM				(X=13305.000000 Y=12420.600000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=53		Net=COM				(X=36245.800000 Y=8788.400000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=59		Net=COM				(X=19377.853125 Y=11025.996875)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=61		Net=COM				(X=18246.481250 Y=12157.368750)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=77		Net=COM				(X=12741.515625 Y=5521.028125)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=119		Net=COM				(X=7061.200000 Y=7289.800000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=124		Net=COM				(X=1113.200000 Y=4572.300000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=125		Net=COM				(X=6701.200000 Y=4572.300000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=126		Net=COM				(X=6701.200000 Y=13208.300000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=127		Net=COM				(X=1113.200000 Y=13208.300000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=135		Net=COM				(X=30006.000000 Y=4318.000000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=137		Net=COM				(X=30006.000000 Y=7366.000000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=148		Net=COM				(X=22947.000000 Y=12592.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=151		Net=COM				(X=24297.000000 Y=12592.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=156		Net=COM				(X=24511.000000 Y=10922.000000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=165		Net=COM				(X=20853.400000 Y=13106.400000)	LayerStart=1	LayerEnd=1
+#********** END OF fix_via_hack.ulp ULP Version 4.8.0 13-03-2018 :23:41:02 LOG **********#
+
+#********** START OF eagle6xx-sch-to-kicad-sch.ulp 2.0 13-03-2018 :23:41:18 LOG **********#
+    Conversion completed with no Messages
+#********** END OF eagle6xx-sch-to-kicad-sch.ulp 2.0 13-03-2018 :23:41:18 LOG **********#
+
+#********** START OF exp-lbrs.ulp 6.8 13-03-2018 :23:41:38 LOG **********#
+OK: Eagle library export from SCH/PCB successful
+    Conversion completed with no messages
+#********** END OF exp-lbrs.ulp 6.8 13-03-2018 :23:41:38 LOG **********#
+
+
+#********** START OF eagle-lbr2kicad-1.0.ulp 3.1 13-03-2018 :23:41:45 LOG **********#
+Missing Prefix Part =''				NO-PACKAGE					NanoV3.2		M
+Missing Prefix Part =''				NO-PACKAGE					NanoV3.2		M
+Missing Prefix Part =''				NO-PACKAGE					NanoV3.2		M
+Missing Prefix Part =-1.5MM				FD-1-1.5					NanoV3.2		M
+Missing Prefix Part =-2MM				FD-1-2					NanoV3.2		M
+Missing Prefix Part =''				NO-PACKAGE					NanoV3.2		M
+Missing Prefix Part =''				NO-PACKAGE					NanoV3.2		M
+#********** END OF eagle-lbr2kicad-1.0.ulp 3.1 13-03-2018 :23:41:45 LOG **********#
+

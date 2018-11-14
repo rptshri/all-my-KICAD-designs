@@ -1,0 +1,164 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5BBC6625
+P 2800 3200
+F 0 "J1" H 2906 3378 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2906 3287 50  0000 C CNN
+F 2 "" H 2800 3200 50  0001 C CNN
+F 3 "~" H 2800 3200 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D1
+U 1 1 5BBC6684
+P 3550 2800
+F 0 "D1" V 3596 2672 50  0000 R CNN
+F 1 "DIODE" V 3505 2672 50  0000 R CNN
+F 2 "" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 2800 50  0001 C CNN
+	1    3550 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D3
+U 1 1 5BBC66F9
+P 4250 2750
+F 0 "D3" V 4296 2622 50  0000 R CNN
+F 1 "DIODE" V 4205 2622 50  0000 R CNN
+F 2 "" H 4250 2750 50  0001 C CNN
+F 3 "" H 4250 2750 50  0001 C CNN
+	1    4250 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D4
+U 1 1 5BBC671B
+P 4250 3550
+F 0 "D4" V 4296 3422 50  0000 R CNN
+F 1 "DIODE" V 4205 3422 50  0000 R CNN
+F 2 "" H 4250 3550 50  0001 C CNN
+F 3 "" H 4250 3550 50  0001 C CNN
+	1    4250 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D2
+U 1 1 5BBC6747
+P 3550 3550
+F 0 "D2" V 3596 3422 50  0000 R CNN
+F 1 "DIODE" V 3505 3422 50  0000 R CNN
+F 2 "" H 3550 3550 50  0001 C CNN
+F 3 "" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 3200 3550 3200
+Wire Wire Line
+	3550 3200 3550 3000
+Wire Wire Line
+	3550 2600 3550 2450
+Wire Wire Line
+	3550 2450 4250 2450
+Wire Wire Line
+	4250 2450 4250 2550
+Wire Wire Line
+	3550 3350 3550 3200
+Connection ~ 3550 3200
+Wire Wire Line
+	4250 3350 4250 3300
+Wire Wire Line
+	3000 3300 4250 3300
+Connection ~ 4250 3300
+Wire Wire Line
+	4250 3300 4250 2950
+Wire Wire Line
+	3550 3750 3550 3850
+Wire Wire Line
+	3550 3850 4250 3850
+Wire Wire Line
+	4250 3850 4250 3750
+$Comp
+L pspice:CAP C1
+U 1 1 5BBC6965
+P 4850 3150
+F 0 "C1" H 5028 3196 50  0000 L CNN
+F 1 "CAP" H 5028 3105 50  0000 L CNN
+F 2 "" H 4850 3150 50  0001 C CNN
+F 3 "" H 4850 3150 50  0001 C CNN
+	1    4850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2900 4850 2450
+Wire Wire Line
+	4850 2450 4250 2450
+Connection ~ 4250 2450
+Wire Wire Line
+	4850 3400 4850 3850
+$Comp
+L Regulator_Linear:L7805 U1
+U 1 1 5BBC6B24
+P 5500 2450
+F 0 "U1" H 5500 2692 50  0000 C CNN
+F 1 "L7805" H 5500 2601 50  0000 C CNN
+F 2 "" H 5525 2300 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5500 2400 50  0001 C CNN
+	1    5500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2450 4850 2450
+Connection ~ 4850 2450
+Wire Wire Line
+	5500 2750 5500 3850
+Wire Wire Line
+	5500 3850 4850 3850
+$Comp
+L Device:R R1
+U 1 1 5BBC6E3B
+P 6000 3200
+F 0 "R1" H 6070 3246 50  0000 L CNN
+F 1 "R" H 6070 3155 50  0000 L CNN
+F 2 "" V 5930 3200 50  0001 C CNN
+F 3 "~" H 6000 3200 50  0001 C CNN
+	1    6000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2450 6000 2450
+Wire Wire Line
+	6000 2450 6000 3050
+Wire Wire Line
+	6000 3350 6000 3850
+Wire Wire Line
+	6000 3850 5500 3850
+Connection ~ 5500 3850
+$Comp
+L power:GND #PWR0101
+U 1 1 5BBC714F
+P 5500 3850
+F 0 "#PWR0101" H 5500 3600 50  0001 C CNN
+F 1 "GND" H 5505 3677 50  0000 C CNN
+F 2 "" H 5500 3850 50  0001 C CNN
+F 3 "" H 5500 3850 50  0001 C CNN
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

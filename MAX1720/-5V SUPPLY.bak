@@ -1,0 +1,256 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:-5V SUPPLY-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "-5 V SUPPLY"
+Date "2018-06-13"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX1720 U1
+U 1 1 5B20B1F2
+P 5750 3800
+F 0 "U1" H 5800 3600 60  0000 C CNN
+F 1 "MAX1720" H 5750 4000 60  0000 C CNN
+F 2 "FOOT:MAX1720" H 5800 3800 60  0001 C CNN
+F 3 "" H 5800 3800 60  0001 C CNN
+	1    5750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J1
+U 1 1 5B20B266
+P 4600 3600
+F 0 "J1" H 4600 3700 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 4600 3400 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4600 3600 50  0001 C CNN
+F 3 "" H 4600 3600 50  0001 C CNN
+	1    4600 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J2
+U 1 1 5B20B2C9
+P 4600 4150
+F 0 "J2" H 4600 4250 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 4600 3950 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4600 4150 50  0001 C CNN
+F 3 "" H 4600 4150 50  0001 C CNN
+	1    4600 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR2
+U 1 1 5B20B2E6
+P 4900 3500
+F 0 "#PWR2" H 4900 3350 50  0001 C CNN
+F 1 "VCC" H 4900 3650 50  0000 C CNN
+F 2 "" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3500 4900 3500
+$Comp
+L GND #PWR1
+U 1 1 5B20B305
+P 4850 3600
+F 0 "#PWR1" H 4850 3350 50  0001 C CNN
+F 1 "GND" H 4850 3450 50  0000 C CNN
+F 2 "" H 4850 3600 50  0001 C CNN
+F 3 "" H 4850 3600 50  0001 C CNN
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3600 4800 3600
+$Comp
+L -VDC #PWR3
+U 1 1 5B20B325
+P 4950 4150
+F 0 "#PWR3" H 4950 4050 50  0001 C CNN
+F 1 "-VDC" H 4950 4400 50  0000 C CNN
+F 2 "" H 4950 4150 50  0001 C CNN
+F 3 "" H 4950 4150 50  0001 C CNN
+	1    4950 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4150 4950 4150
+$Comp
+L GND #PWR4
+U 1 1 5B20B347
+P 5100 4050
+F 0 "#PWR4" H 5100 3800 50  0001 C CNN
+F 1 "GND" H 5100 3900 50  0000 C CNN
+F 2 "" H 5100 4050 50  0001 C CNN
+F 3 "" H 5100 4050 50  0001 C CNN
+	1    5100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4050 4800 4050
+$Comp
+L GND #PWR8
+U 1 1 5B20B391
+P 6000 3900
+F 0 "#PWR8" H 6000 3650 50  0001 C CNN
+F 1 "GND" H 6000 3750 50  0000 C CNN
+F 2 "" H 6000 3900 50  0001 C CNN
+F 3 "" H 6000 3900 50  0001 C CNN
+	1    6000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3900 5950 3900
+$Comp
+L -VDC #PWR6
+U 1 1 5B20B3BD
+P 5450 3700
+F 0 "#PWR6" H 5450 3600 50  0001 C CNN
+F 1 "-VDC" H 5450 3950 50  0000 C CNN
+F 2 "" H 5450 3700 50  0001 C CNN
+F 3 "" H 5450 3700 50  0001 C CNN
+	1    5450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3800 5750 3800
+Wire Wire Line
+	5550 3700 5450 3700
+$Comp
+L VCC #PWR5
+U 1 1 5B20B41A
+P 5300 3800
+F 0 "#PWR5" H 5300 3650 50  0001 C CNN
+F 1 "VCC" H 5300 3950 50  0000 C CNN
+F 2 "" H 5300 3800 50  0001 C CNN
+F 3 "" H 5300 3800 50  0001 C CNN
+	1    5300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3800 6100 3800
+Wire Wire Line
+	6100 3800 6100 4150
+Wire Wire Line
+	6100 4150 5750 4150
+Wire Wire Line
+	5750 4150 5750 3800
+Connection ~ 5550 3800
+$Comp
+L CP1_Small C2
+U 1 1 5B20B449
+P 6300 3800
+F 0 "C2" H 6310 3870 50  0000 L CNN
+F 1 "CP1_Small" H 6310 3720 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6300 3800 50  0001 C CNN
+F 3 "" H 6300 3800 50  0001 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3700 6300 3700
+Wire Wire Line
+	6300 3900 6300 4300
+Wire Wire Line
+	6300 4300 5550 4300
+Wire Wire Line
+	5550 4300 5550 3900
+$Comp
+L CP1_Small C1
+U 1 1 5B20B4F0
+P 5600 3250
+F 0 "C1" H 5610 3320 50  0000 L CNN
+F 1 "CP1_Small" H 5610 3170 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5600 3250 50  0001 C CNN
+F 3 "" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3700 5550 3350
+Wire Wire Line
+	5550 3350 5600 3350
+$Comp
+L GND #PWR7
+U 1 1 5B20B589
+P 5800 3100
+F 0 "#PWR7" H 5800 2850 50  0001 C CNN
+F 1 "GND" H 5800 2950 50  0000 C CNN
+F 2 "" H 5800 3100 50  0001 C CNN
+F 3 "" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3100 5600 3100
+Wire Wire Line
+	5600 3100 5600 3150
+$Comp
+L CP1_Small C?
+U 1 1 5B20B71C
+P 5350 4000
+F 0 "C?" H 5360 4070 50  0000 L CNN
+F 1 "CP1_Small" H 5360 3920 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5350 4000 50  0001 C CNN
+F 3 "" H 5350 4000 50  0001 C CNN
+	1    5350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3800 5350 3900
+Connection ~ 5350 3800
+$Comp
+L GND #PWR?
+U 1 1 5B20B761
+P 5350 4100
+F 0 "#PWR?" H 5350 3850 50  0001 C CNN
+F 1 "GND" H 5350 3950 50  0000 C CNN
+F 2 "" H 5350 4100 50  0001 C CNN
+F 3 "" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
