@@ -1,0 +1,123 @@
+(ExpressProject "PCB_LWS-V1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\pcb_lws-v1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "PCB_LWS-V1.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    ( "TRUE")
+    (LAYOUT_Units "0")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\VINAY\PROJECTS\AGRO - IOT SENSOR PROJECT\PCB_LWS-V1\PCB_LWS-V1.DRC"))
+  (Folder "Outputs"
+    (File ".\pcb_lws-v1.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\pcb_lws-v1.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\vinay\Desktop\Desktop\PCB Work\ni2 Libraries")
+  (PartMRUSelector
+    (MHOLE
+      (FullPartName "MHOLE.Normal")
+      (LibraryName
+         "C:\USERS\VINAY\DESKTOP\DESKTOP\PCB WORK\NI2 LIBRARIES\NI2 SCHEMATICS.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LMC555
+      (FullPartName "LMC555.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\MISCLINEAR.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MIC5205X/SOT
+      (FullPartName "MIC5205X/SOT.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("TEST POINT"
+      (FullPartName "TEST POINT.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LM555/SO
+      (FullPartName "LM555/SO.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\MISCLINEAR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Vinay\Projects\Agro - IOT Sensor Project\PCB_LWS-V1\pcb_lws-v1.dsn")
+      (Path "Design Resources"
+         "D:\Vinay\Projects\Agro - IOT Sensor Project\PCB_LWS-V1\pcb_lws-v1.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\Vinay\Projects\Agro - IOT Sensor Project\PCB_LWS-V1\pcb_lws-v1.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 410"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1120 52 501")
+        (Scroll "0 0")
+        (Zoom "86")
+        (Occurrence "/"))
+      (Path
+         "D:\VINAY\PROJECTS\AGRO - IOT SENSOR PROJECT\PCB_LWS-V1\PCB_LWS-V1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

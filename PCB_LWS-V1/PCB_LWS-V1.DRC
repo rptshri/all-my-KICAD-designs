@@ -1,0 +1,21 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict U2,VCC Power Connected to Output
+                    SCHEMATIC1, PAGE1  (4.00, 2.40) 
+WARNING:  [DRC0005]  Unconnected pin U2,RST
+                    SCHEMATIC1, PAGE1  (4.00, 2.00) 
+WARNING:  [DRC0005]  Unconnected pin U2,CV
+                    SCHEMATIC1, PAGE1  (4.00, 1.90) 
+
+Checking for Unconnected Nets
+
+Checking for Invalid References
+
+Checking for Duplicate References
+
+Check Bus width mismatch

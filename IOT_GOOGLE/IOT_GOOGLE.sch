@@ -1,0 +1,288 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR0101
+U 1 1 5C472F85
+P 6300 2250
+F 0 "#PWR0101" H 6300 2100 50  0001 C CNN
+F 1 "VCC" H 6317 2423 50  0000 C CNN
+F 2 "" H 6300 2250 50  0001 C CNN
+F 3 "" H 6300 2250 50  0001 C CNN
+	1    6300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5C472FF5
+P 5900 2600
+F 0 "R4" V 5704 2600 50  0000 C CNN
+F 1 "R_Small" V 5795 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5900 2600 50  0001 C CNN
+F 3 "~" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 2250 6300 2400
+$Comp
+L Device:R_Small R5
+U 1 1 5C473122
+P 5900 3100
+F 0 "R5" V 5704 3100 50  0000 C CNN
+F 1 "R_Small" V 5795 3100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5900 3100 50  0001 C CNN
+F 3 "~" H 5900 3100 50  0001 C CNN
+	1    5900 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 2800 6300 2900
+$Comp
+L power:GND #PWR0102
+U 1 1 5C473184
+P 6300 3700
+F 0 "#PWR0102" H 6300 3450 50  0001 C CNN
+F 1 "GND" H 6305 3527 50  0000 C CNN
+F 2 "" H 6300 3700 50  0001 C CNN
+F 3 "" H 6300 3700 50  0001 C CNN
+	1    6300 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3300 6300 3500
+Text Label 6300 3400 0    50   ~ 0
+OUT
+Text Label 5550 2600 0    50   ~ 0
+D1
+Wire Wire Line
+	5550 2600 5800 2600
+$Comp
+L power:VCC #PWR0103
+U 1 1 5C4732BF
+P 5150 2300
+F 0 "#PWR0103" H 5150 2150 50  0001 C CNN
+F 1 "VCC" H 5167 2473 50  0000 C CNN
+F 2 "" H 5150 2300 50  0001 C CNN
+F 3 "" H 5150 2300 50  0001 C CNN
+	1    5150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2300 5150 2450
+Wire Wire Line
+	5150 2450 4850 2450
+Wire Wire Line
+	4850 3050 5150 3050
+Wire Wire Line
+	5150 3050 5150 2450
+Connection ~ 5150 2450
+$Comp
+L Device:R_Small R6
+U 1 1 5C473344
+P 6300 3600
+F 0 "R6" H 6241 3554 50  0000 R CNN
+F 1 "R_Small" H 6241 3645 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6300 3600 50  0001 C CNN
+F 3 "~" H 6300 3600 50  0001 C CNN
+	1    6300 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2850 4850 2950
+Wire Wire Line
+	4850 2950 5100 2950
+Wire Wire Line
+	5100 2950 5100 3450
+Wire Wire Line
+	5100 3450 4850 3450
+$Comp
+L Device:R_Small R1
+U 1 1 5C473528
+P 4450 2650
+F 0 "R1" V 4254 2650 50  0000 C CNN
+F 1 "R_Small" V 4345 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4450 2650 50  0001 C CNN
+F 3 "~" H 4450 2650 50  0001 C CNN
+	1    4450 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5C473596
+P 4450 3250
+F 0 "R2" V 4254 3250 50  0000 C CNN
+F 1 "R_Small" V 4345 3250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4450 3250 50  0001 C CNN
+	1    4450 3250
+	0    1    1    0   
+$EndComp
+Text Label 4200 2650 0    50   ~ 0
+D0
+Wire Wire Line
+	4200 2650 4350 2650
+Text Label 4200 3250 0    50   ~ 0
+PIR
+Wire Wire Line
+	4200 3250 4350 3250
+Wire Wire Line
+	5100 3450 5800 3450
+Wire Wire Line
+	5800 3450 5800 3100
+Connection ~ 5100 3450
+$Comp
+L Device:R_Small R3
+U 1 1 5C473991
+P 5100 3550
+F 0 "R3" H 5041 3504 50  0000 R CNN
+F 1 "R_Small" H 5041 3595 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5100 3550 50  0001 C CNN
+F 3 "~" H 5100 3550 50  0001 C CNN
+	1    5100 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5C473A21
+P 5100 3650
+F 0 "#PWR0104" H 5100 3400 50  0001 C CNN
+F 1 "GND" H 5105 3477 50  0000 C CNN
+F 2 "" H 5100 3650 50  0001 C CNN
+F 3 "" H 5100 3650 50  0001 C CNN
+	1    5100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5C473C2D
+P 3800 4400
+F 0 "J1" H 3906 4678 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3906 4587 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 4400 50  0001 C CNN
+F 3 "~" H 3800 4400 50  0001 C CNN
+	1    3800 4400
+	1    0    0    -1  
+$EndComp
+Text Label 4000 4300 0    50   ~ 0
+D0
+Text Label 4000 4500 0    50   ~ 0
+PIR
+Text Label 4000 4400 0    50   ~ 0
+D1
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5C4740B0
+P 5100 4650
+F 0 "J2" H 5206 4828 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5206 4737 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5100 4650 50  0001 C CNN
+F 3 "~" H 5100 4650 50  0001 C CNN
+	1    5100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C474138
+P 5300 4750
+F 0 "#PWR0105" H 5300 4500 50  0001 C CNN
+F 1 "GND" H 5305 4577 50  0000 C CNN
+F 2 "" H 5300 4750 50  0001 C CNN
+F 3 "" H 5300 4750 50  0001 C CNN
+	1    5300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5C474263
+P 5300 4650
+F 0 "#PWR0106" H 5300 4500 50  0001 C CNN
+F 1 "VCC" H 5317 4823 50  0000 C CNN
+F 2 "" H 5300 4650 50  0001 C CNN
+F 3 "" H 5300 4650 50  0001 C CNN
+	1    5300 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5C47471A
+P 6100 4500
+F 0 "J3" H 6206 4678 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6206 4587 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6100 4500 50  0001 C CNN
+F 3 "~" H 6100 4500 50  0001 C CNN
+	1    6100 4500
+	1    0    0    -1  
+$EndComp
+Text Label 6350 4500 0    50   ~ 0
+OUT
+Wire Wire Line
+	6350 4500 6300 4500
+$Comp
+L power:GND #PWR0107
+U 1 1 5C474A61
+P 6300 4600
+F 0 "#PWR0107" H 6300 4350 50  0001 C CNN
+F 1 "GND" H 6305 4427 50  0000 C CNN
+F 2 "" H 6300 4600 50  0001 C CNN
+F 3 "" H 6300 4600 50  0001 C CNN
+	1    6300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 5C474CBC
+P 4750 2650
+F 0 "Q1" H 4941 2696 50  0000 L CNN
+F 1 "BC547" H 4941 2605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 4950 2575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4750 2650 50  0001 L CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q2
+U 1 1 5C474DBE
+P 4750 3250
+F 0 "Q2" H 4941 3296 50  0000 L CNN
+F 1 "BC547" H 4941 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 4950 3175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4750 3250 50  0001 L CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q3
+U 1 1 5C474E14
+P 6200 2600
+F 0 "Q3" H 6391 2646 50  0000 L CNN
+F 1 "BC547" H 6391 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 6400 2525 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6200 2600 50  0001 L CNN
+	1    6200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q4
+U 1 1 5C474E4A
+P 6200 3100
+F 0 "Q4" H 6391 3146 50  0000 L CNN
+F 1 "BC547" H 6391 3055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 6400 3025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6200 3100 50  0001 L CNN
+	1    6200 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
