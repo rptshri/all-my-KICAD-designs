@@ -1,25 +1,23 @@
-Source:	C:\Users\ARPIT\Documents\GitHub\kicad\Arduino\arduinoUno\arduinoUno.sch
-Date:	4/1/2019 10:50:58 AM
-Tool:	Eeschema (5.0.2)-1
-Component Count:	20
-Ref	Value	Part	Footprint	Description	Vendor
-C1	.1uF	Device:C_Small	Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm	Unpolarized capacitor, small symbol	
-C2	CP	Device:CP	Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm	Polarized capacitor	
-C3	CP	Device:CP	Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm	Polarized capacitor	
-C4	.1uF	Device:C_Small	Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm	Unpolarized capacitor, small symbol	
-C5	.1uF	Device:C_Small	Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm	Unpolarized capacitor, small symbol	
-J1	Conn_01x06_Male	Connector:Conn_01x06_Male	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)	
-J2	ESP01 Module	Connector_Generic:Conn_02x04_Odd_Even	Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical	Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)	
-J3	JST_XH_3P	Connector:Conn_01x03_Male	Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical	Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)	
-J4	JST_XH_3P	Connector:Conn_01x03_Male	Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical	Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)	
-J5	.	Connector_Generic:Conn_02x05_Odd_Even	Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical	Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)	
-J6	Serial_Conn	Connector:Conn_01x03_Male	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)	
-J7	AVR-ISP-6	Connector:AVR-ISP-6	Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical	Atmel 6-pin ISP connector	
-J8	Screw_Terminal_01x02	Connector:Screw_Terminal_01x02	TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm	Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)	
-R1	1K	Device:R_Small	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor, small symbol	
-R2	1K	Device:R_Small	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor, small symbol	
-R3	10K	Device:R_Small	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor, small symbol	
-SW1	SW_Push	Switch:SW_Push	Button_Switch_THT:SW_PUSH_6mm	Push button switch, generic, two pins	
-U1	AMS1117-3.3	Regulator_Linear:AMS1117-3.3	Package_TO_SOT_SMD:SOT-223-3_TabPin2	1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223	
-U2	ATmega328-PU	MCU_Microchip_ATmega:ATmega328-PU	Package_DIP:DIP-28_W7.62mm_Socket_LongPads	20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28	
-Y1	Crystal	Device:Crystal	Crystal:Crystal_HC18-U_Vertical	Two pin crystal	
+Reference, Value, Footprint, Datasheet
+"SW1","SW_Push","Button_Switch_THT:SW_PUSH_6mm",""
+"R3","10K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"Y1","Crystal","Crystal:Crystal_HC18-U_Vertical","~"
+"C4",".1uF","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","~"
+"U2","ATmega328-PU","Package_DIP:DIP-28_W7.62mm_Socket_LongPads","http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
+"C5",".1uF","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","~"
+"C3","CP","Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm","~"
+"J1","Conn_01x06_Male","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~"
+"C1",".1uF","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","~"
+"J5",".","Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical","~"
+"J3","JST_XH_3P","Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical","~"
+"J4","JST_XH_3P","Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical","~"
+"J2","ESP01 Module","Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical","~"
+"U1","AMS1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+"C2","CP","Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm","~"
+"R1","1K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"R2","1K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"J7","AVR-ISP-6","Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"," ~"
+"J6","Serial_Conn","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~"
+"J8","Screw_Terminal_01x02","TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm","~"
+"R4","1K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"D1","LED","LED_THT:LED_D3.0mm","~"
