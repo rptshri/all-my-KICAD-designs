@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name EM18-BREAK-OUT-BOARD-rescue)(type Legacy)(uri "${KIPRJMOD}/EM18 BREAK OUT BOARD-rescue.lib")(options "")(descr ""))
+  (lib (name switches)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/switches.lib)(options "")(descr ""))
+  (lib (name RFID)(type Legacy)(uri ${KIPRJMOD}/RFID.lib)(options "")(descr ""))
+)

@@ -1,6 +1,39 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RFID
 LIBS:EM18 BREAK OUT BOARD-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RFID:EM18 U1
+L EM18 U1
 U 1 1 5AD83894
 P 7150 3300
 F 0 "U1" H 7450 2900 60  0000 C CNN
@@ -26,7 +59,7 @@ F 3 "" H 7150 3275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C2
+L CP1_Small C2
 U 1 1 5AD84A66
 P 6150 3100
 F 0 "C2" H 6160 3170 50  0000 L CNN
@@ -37,7 +70,7 @@ F 3 "" H 6150 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L C_Small C3
 U 1 1 5AD84AAE
 P 6350 3100
 F 0 "C3" H 6360 3170 50  0000 L CNN
@@ -48,7 +81,7 @@ F 3 "" H 6350 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR01
+L VCC #PWR01
 U 1 1 5AD84B64
 P 6350 2900
 F 0 "#PWR01" H 6350 2750 50  0001 C CNN
@@ -59,7 +92,7 @@ F 3 "" H 6350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 5AD84BCA
 P 6350 3250
 F 0 "#PWR02" H 6350 3000 50  0001 C CNN
@@ -70,7 +103,7 @@ F 3 "" H 6350 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R2
+L R_Small R2
 U 1 1 5AD84C16
 P 5850 3400
 F 0 "R2" H 5880 3420 50  0000 L CNN
@@ -81,7 +114,7 @@ F 3 "" H 5850 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_PNP_BCE Q1
+L Q_PNP_BCE Q1
 U 1 1 5AD84D1D
 P 5500 3400
 F 0 "Q1" H 5700 3450 50  0000 L CNN
@@ -92,7 +125,7 @@ F 3 "" H 5500 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR03
+L VCC #PWR03
 U 1 1 5AD84DA0
 P 5400 3100
 F 0 "#PWR03" H 5400 2950 50  0001 C CNN
@@ -103,7 +136,7 @@ F 3 "" H 5400 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R1
+L R_Small R1
 U 1 1 5AD84DD5
 P 5400 3900
 F 0 "R1" H 5430 3920 50  0000 L CNN
@@ -114,7 +147,7 @@ F 3 "" H 5400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L LED D1
 U 1 1 5AD84E3A
 P 5400 4250
 F 0 "D1" H 5400 4350 50  0000 C CNN
@@ -125,7 +158,7 @@ F 3 "" H 5400 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR04
+L GND #PWR04
 U 1 1 5AD84ED2
 P 5400 4500
 F 0 "#PWR04" H 5400 4250 50  0001 C CNN
@@ -136,7 +169,7 @@ F 3 "" H 5400 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Buzzer BZ1
+L Buzzer BZ1
 U 1 1 5AD8503D
 P 5000 4000
 F 0 "BZ1" H 5150 4050 50  0000 L CNN
@@ -147,7 +180,7 @@ F 3 "" V 4975 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EM18-BREAK-OUT-BOARD-rescue:Conn_01x06_Male J2
+L Conn_01x06_Male J2
 U 1 1 5AD85230
 P 8150 3600
 F 0 "J2" H 8150 3900 50  0000 C CNN
@@ -158,14 +191,14 @@ F 3 "" H 8150 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6150 3000 6350 3000
+	6150 3000 6600 3000
 Wire Wire Line
 	6600 3000 6600 3050
 Connection ~ 6350 3000
 Wire Wire Line
 	6350 2900 6350 3000
 Wire Wire Line
-	6150 3200 6350 3200
+	6150 3200 6600 3200
 Wire Wire Line
 	6600 3200 6600 3300
 Connection ~ 6350 3200
@@ -178,11 +211,11 @@ Wire Wire Line
 Wire Wire Line
 	5400 3100 5400 3200
 Wire Wire Line
-	5400 3600 5400 3650
+	5400 3600 5400 3800
 Wire Wire Line
 	5400 4000 5400 4100
 Wire Wire Line
-	5400 4400 5400 4450
+	5400 4400 5400 4500
 Wire Wire Line
 	5100 4100 5100 4450
 Wire Wire Line
@@ -202,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 3600 7950 3600
 $Comp
-L power:VCC #PWR05
+L VCC #PWR05
 U 1 1 5AD8542D
 P 7800 3800
 F 0 "#PWR05" H 7800 3650 50  0001 C CNN
@@ -213,7 +246,7 @@ F 3 "" H 7800 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 5AD854C8
 P 7650 3700
 F 0 "#PWR06" H 7650 3450 50  0001 C CNN
@@ -228,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 3800 7800 3800
 $Comp
-L EM18-BREAK-OUT-BOARD-rescue:Barrel_Jack J1
+L Barrel_Jack J1
 U 1 1 5AD856A4
 P 3800 5750
 F 0 "J1" H 3800 5960 50  0000 C CNN
@@ -239,7 +272,7 @@ F 3 "" H 3850 5710 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 5AD85797
 P 4200 5900
 F 0 "#PWR07" H 4200 5650 50  0001 C CNN
@@ -252,14 +285,14 @@ $EndComp
 Wire Wire Line
 	4100 5850 4200 5850
 Wire Wire Line
-	4200 5750 4200 5850
+	4200 5750 4200 5900
 Wire Wire Line
 	4100 5750 4200 5750
 Connection ~ 4200 5850
 Wire Wire Line
 	4100 5650 4350 5650
 $Comp
-L EM18-BREAK-OUT-BOARD-rescue:L7805 U2
+L L7805 U2
 U 1 1 5AD85917
 P 6000 5600
 F 0 "U2" H 5850 5725 50  0000 C CNN
@@ -270,7 +303,7 @@ F 3 "" H 6000 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCOM #PWR08
+L VCOM #PWR08
 U 1 1 5AD85959
 P 5250 5600
 F 0 "#PWR08" H 5250 5450 50  0001 C CNN
@@ -281,7 +314,7 @@ F 3 "" H 5250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C1
+L CP_Small C1
 U 1 1 5AD859F5
 P 5550 6100
 F 0 "C1" H 5560 6170 50  0000 L CNN
@@ -292,7 +325,7 @@ F 3 "" H 5550 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C4
+L CP_Small C4
 U 1 1 5AD85AB7
 P 6450 6100
 F 0 "C4" H 6460 6170 50  0000 L CNN
@@ -303,7 +336,7 @@ F 3 "" H 6450 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 5AD85B94
 P 6000 6350
 F 0 "#PWR09" H 6000 6100 50  0001 C CNN
@@ -314,7 +347,7 @@ F 3 "" H 6000 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 5600 5550 5600
+	5250 5600 5700 5600
 Wire Wire Line
 	6300 5600 6450 5600
 Wire Wire Line
@@ -322,9 +355,9 @@ Wire Wire Line
 Wire Wire Line
 	5550 6200 5550 6300
 Wire Wire Line
-	5550 6300 6000 6300
+	5550 6300 6450 6300
 Wire Wire Line
-	6000 5900 6000 6300
+	6000 5900 6000 6350
 Wire Wire Line
 	6450 6300 6450 6200
 Connection ~ 6000 6300
@@ -332,7 +365,7 @@ Wire Wire Line
 	5550 6000 5550 5600
 Connection ~ 5550 5600
 $Comp
-L power:VCC #PWR010
+L VCC #PWR010
 U 1 1 5AD85D84
 P 6450 5500
 F 0 "#PWR010" H 6450 5350 50  0001 C CNN
@@ -344,7 +377,7 @@ F 3 "" H 6450 5500 50  0001 C CNN
 $EndComp
 Connection ~ 6450 5600
 $Comp
-L RFID:latchswitch SW1
+L latchswitch SW1
 U 1 1 5AD8620E
 P 4700 6500
 F 0 "SW1" H 4802 6122 60  0000 C CNN
@@ -355,7 +388,7 @@ F 3 "" H 4748 6708 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCOM #PWR011
+L VCOM #PWR011
 U 1 1 5AD863F3
 P 5400 6550
 F 0 "#PWR011" H 5400 6400 50  0001 C CNN
@@ -366,7 +399,7 @@ F 3 "" H 5400 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 5650 4350 6300
+	4350 5650 4350 6700
 Wire Wire Line
 	4350 6300 4400 6300
 Wire Wire Line
@@ -375,14 +408,14 @@ Connection ~ 4350 6300
 Wire Wire Line
 	4950 6200 5200 6200
 Wire Wire Line
-	5200 6200 5200 6550
+	5200 6200 5200 6600
 Wire Wire Line
 	5200 6550 5400 6550
 Wire Wire Line
 	5200 6600 4950 6600
 Connection ~ 5200 6550
 $Comp
-L EM18-BREAK-OUT-BOARD-rescue:Conn_01x02 J3
+L Conn_01x02 J3
 U 1 1 5AD8646B
 P 6650 5500
 F 0 "J3" H 6650 5600 50  0000 C CNN
@@ -392,24 +425,4 @@ F 3 "" H 6650 5500 50  0001 C CNN
 	1    6650 5500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6350 3000 6600 3000
-Wire Wire Line
-	6350 3200 6600 3200
-Wire Wire Line
-	5400 4450 5400 4500
-Wire Wire Line
-	5400 3650 5400 3800
-Wire Wire Line
-	4200 5850 4200 5900
-Wire Wire Line
-	6000 6300 6450 6300
-Wire Wire Line
-	6000 6300 6000 6350
-Wire Wire Line
-	5550 5600 5700 5600
-Wire Wire Line
-	4350 6300 4350 6700
-Wire Wire Line
-	5200 6550 5200 6600
 $EndSCHEMATC
