@@ -1,0 +1,57 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C_Small,C10 C12 C13 C14 C15 CB3 CB5 CB6,0.1u,C_0805_2012Metric,8,~
+2,Polarised capacitor,CP,C4,100u,CP_Elec_6.3x5.7,1,~
+3,Polarised capacitor,CP_Small,C11,10u,CP_Elec_5x4.4,1,~
+4,Unpolarized capacitor,C,C7 CB2 CB4,1u,C_0805_2012Metric,3,~
+5,Polarised capacitor,CP_Small,C8 C9,22u,CP_Elec_5x5.3,2,~
+6,Polarised capacitor,CP,C1 C2,470u,CP_Elec_8x6.2,2,~
+7,Polarised capacitor,CP,C16 C17 C18,470u,CP_Elec_10x7.9,3,~
+8,Unpolarized capacitor,C_Small,CB1,.1,C_0805_2012Metric,1,~
+9,"Zener Diode, small symbol",D_Zener_Small,D11 D12 D13,5.1V,D_A-405_P7.62mm_Horizontal,3,~
+10,Diode,D,D3 D4 D5 D6 D7 D8,D,D_SMA,6,~
+11,LED generic,LED,D9 D10,LED,LED_0805_2012Metric,2,~
+12,LED generic,LED,D2,POWER_LED,LED_0805_2012Metric,1,~
+13,Diode,D,D1,SS24,D_SMC,1,~
+14,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J7,5V HDR,PinHeader_1x04_P2.54mm_Vertical,1,~
+15,Atmel 6-pin ISP connector,AVR-ISP-6,J2,AVR-ISP-6,PinHeader_2x03_P2.54mm_Vertical,1, ~
+16,"Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Odd_Even,J11,CROSS CONN,PinHeader_2x02_P2.54mm_Vertical,1,~
+17,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Female,J13,Conn_01x02_Female,PinHeader_1x02_P2.54mm_Vertical,1,~
+18,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J10,ENCODER HDR,PinHeader_1x04_P2.54mm_Vertical,1,~
+19,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J8,GND HDR,PinHeader_1x04_P2.54mm_Vertical,1,~
+20,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J1 J3 J5,I2C HDR,PinHeader_1x04_P2.54mm_Vertical,3,~
+21,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J4,Screw_Terminal_01x02,TerminalBlock_Altech_AK300-2_P5.00mm,1,~
+22,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J6,UART HDR,PinHeader_1x04_P2.54mm_Vertical,1,~
+23,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J12,motor,TerminalBlock_Altech_AK300-2_P5.00mm,1,~
+24,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Male,J9,servo hdr,PinSocket_1x03_P2.54mm_Vertical,1,~
+25,Inductor,L,L1,220uH,L_12x12mm_H6mm,1,~
+26,"33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220",IRF540N,Q1 Q2 Q3 Q4,IRF540N,TO220_HS_SCREW,4,http://www.irf.com/product-info/datasheets/data/irf540n.pdf
+27,Resistor,R,R7 R8 R9 R11 R12,0E05,R_2512_6332Metric,5,~
+28,Resistor,R,R5 R6 R14 R15,10,R_0805_2012Metric,4,~
+29,Resistor,R,R13 R19 R23 R24,10K,R_0805_2012Metric,4,~
+30,Resistor,R,R10 R25 R26,1K,R_0805_2012Metric,3,~
+31,Resistor,R,R1,240,R_0805_2012Metric,1,~
+32,Resistor,R,R2,2k7,R_0805_2012Metric,1,~
+33,Resistor,R,R4 R20 R21 R22,4K7,R_0805_2012Metric,4,~
+34,"Resistor, small symbol",R_Small,R3 R17 R18,540,R_0805_2012Metric,3,~
+35,"4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x04,SW2,SW_DIP_x04,SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm,1,
+36,"Push button switch, generic, two pins",SW_Push,SW1 SW3 SW4,SW_Push,SW_PUSH_6mm,3,
+37,,ATmega328P-AU-MCU_Microchip_ATmega,U6,ATmega328P-AU-MCU_Microchip_ATmega,TQFP-32_7x7mm_P0.8mm,1,
+38,"High and Low Side Gate Driver,  Output Current 130/270mA, PDIP-8/SOIC-8",IR2104,U3 U5,IR2104,DIP-8_W7.62mm_Socket_LongPads,2,http://www.irf.com/product-info/datasheets/data/ir2104.pdf
+39,"Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252",L7805,U2,L7805,SOT-223-3_TabPin2,1,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+40,"Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263",LM2576HVS-ADJ,U1,LM2576HVS-ADJ,TO-263-5_TabPin3,1,http://www.ti.com/lit/ds/symlink/lm2576.pdf
+41,"Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",LM358,U4,LM358,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.ti.com/lit/ds/symlink/lm2904-n.pdf
+
+
+
+
+
+Component Groups:,41
+Component Count:,87
+Fitted Components:,87
+Number of PCBs:,1
+Total components:,87
+Schematic Version:,1
+Schematic Date:,2018-10-21
+BoM Date:,10/27/2018 10:03:15 AM
+Schematic Source:,C:\Users\malha\OneDrive\Documents\GitHub\Mosfet_Driver-NEW-\MosfetDriverOn2104\MosfetDriverOn210404.sch
+KiCad Version:,Eeschema (5.0.0)
