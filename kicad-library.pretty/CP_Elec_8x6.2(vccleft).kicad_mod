@@ -1,4 +1,4 @@
-(module CP_Elec_8x6.2 (layer F.Cu) (tedit 5D620647)
+(module "CP_Elec_8x6.2(vccleft)" (layer F.Cu) (tedit 5D620647)
   (descr "SMD capacitor, aluminum electrolytic, Nichicon, 8.0x6.2mm")
   (tags "capacitor electrolytic")
   (attr smd)
